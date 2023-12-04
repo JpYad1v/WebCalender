@@ -14,7 +14,10 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-
+<properties>
+  <sonar.host.url>http://43.204.19.70:9000/</sonar.host.url>
+		<sonar.login>sqa_5693fc188757db63e99697c3feed4639bd9ce897</sonar.login>
+</properties>
     <dependency>
     	<groupId>org.apache.geronimo.specs</groupId>
     	<artifactId>geronimo-jsp_2.0_spec</artifactId>
